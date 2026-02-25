@@ -1,0 +1,6 @@
+vod_output/*
+!vod_output/.gitkeep
+__pycache__/
+*.pyc
+.DS_Store
+.env

@@ -1,0 +1,14 @@
+services:
+  magyartv-app:
+    build: .
+    container_name: magyartv-bridge
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      # OPCIONÁLIS: Ha nem indulnak a videók, írd be ide a szerver IP-jét:
+      # - HOST_IP=192.168.X.X
+      - TZ=Europe/Budapest
+    volumes:
+      - ./config:/magyartv/config
+      - ./vod_output:/magyartv/vod_output
