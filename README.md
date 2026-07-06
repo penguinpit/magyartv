@@ -1,3 +1,5 @@
+Update:
+Visszanézhető műsorok a streaming szolgáltató módosításai miatt jelenleg nem funkcionál.
 # 📺 Magyar TV (MTVA) IPTV Generátor + Visszanézhető műsorok (VOD)
 
 Mivel nem találtam jelenleg jól működő megoldást a magyar adók házi streamelésére, készítettem egy kis scriptet, amit Jellyfin média szerverbe könnyedén lehet integrálni.
